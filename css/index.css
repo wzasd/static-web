@@ -5,33 +5,39 @@
   margin: 0 auto;
   position: relative;
 }
+
 .h-info img {
   position: absolute;
 }
+
 .h-info .left-top {
   width: 39%;
   top: 0;
   left: 0;
   opacity: 0.55;
 }
+
 .h-info .ball {
   width: 16%;
   top: 12%;
   right: 30%;
   opacity: 0.16;
 }
+
 .h-info .left-bottom {
   width: 34%;
   bottom: 0;
   right: 0;
   opacity: 0.31;
 }
+
 .h-info .title {
   font-size: 24px;
   color: #25324E;
   letter-spacing: 0;
   line-height: 38px;
 }
+
 .h-info .tip {
   font-size: 24px;
   color: #636363;
@@ -39,6 +45,7 @@
   text-align: justify;
   line-height: 36px;
 }
+
 .h-info .h-info-con {
   height: 100px;
   position: absolute;
@@ -48,6 +55,7 @@
   left: 21%;
   right: 0;
 }
+
 .h-info span {
   display: block;
 }
@@ -61,11 +69,13 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 .h-phone .h-phone-dw {
   position: absolute;
   top: 5%;
   left: 40%;
 }
+
 .h-phone .h-phone-c {
   width: 800px;
   padding: 20px;
@@ -76,6 +86,7 @@
   position: relative;
   z-index: 99;
 }
+
 .h-phone .title {
   font-size: 24px;
   color: #25324E;
@@ -84,6 +95,7 @@
   line-height: 30px;
   margin-bottom: 10px;
 }
+
 .h-phone .tip {
   font-size: 19px;
   color: #636363;
@@ -92,6 +104,7 @@
   line-height: 32px;
   margin-bottom: 10px;
 }
+
 .h-phone .tip span {
   font-size: 19px;
   color: #25324E;
@@ -99,6 +112,7 @@
   text-align: justify;
   line-height: 28px;
 }
+
 .h-phone .tip i {
   display: inline-block;
   font-style: normal;
@@ -120,6 +134,7 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 .h-style .h-style-con {
   width: 100%;
   position: absolute;
@@ -127,6 +142,7 @@
   height: 1012px;
   margin: 0 auto;
 }
+
 .h-style .title {
   margin-top: 240px;
   font-size: 20px;
@@ -135,44 +151,57 @@
   line-height: 30px;
   text-align: center;
 }
+
 .h-style .h-style-img {
   text-align: center;
   margin: 80px auto 0 auto;
 }
-
+.h-style-img img{
+  width: 20%;
+}
+.h-style-img .one{
+  width: 49%;
+}
 .h-bgf .h-bgf-con {
   width: 1100px;
   background-color: #fff;
   margin: 100px auto;
 }
+
 .h-bgf .left {
   position: relative;
   width: 60%;
 }
+
 .h-bgf .right {
   position: relative;
   width: 40%;
 }
+
 .h-bgf .left1 {
   position: relative;
   width: 35%;
 }
+
 .h-bgf .right1 {
   position: relative;
   width: 65%;
 }
+
 .h-bgf .ty-bg {
   width: 70%;
   position: absolute;
   right: 0;
   opacity: 0.6;
 }
+
 .h-bgf .five li {
   text-align: center;
   width: 30%;
   display: inline-block;
   margin-bottom: 50px;
 }
+
 .h-bgf .five li span {
   display: block;
   font-size: 16px;
@@ -180,6 +209,7 @@
   line-height: 24px;
   margin: 10px auto;
 }
+
 .h-bgf .four li {
   width: 50%;
   padding-right: 5%;
@@ -187,6 +217,7 @@
   margin-bottom: 60px;
   float: left;
 }
+
 .h-bgf .four li i {
   display: block;
   font-style: normal;
@@ -198,6 +229,7 @@
   color: #FF6360;
   text-align: center;
 }
+
 .h-bgf .four li span {
   display: block;
   margin-top: 15px;
@@ -207,6 +239,7 @@
   text-align: justify;
   line-height: 28px;
 }
+
 .h-bgf .title {
   font-size: 20px;
   color: #25324E;
@@ -215,6 +248,7 @@
   line-height: 30px;
   margin-bottom: 16px;
 }
+
 .h-bgf .tip {
   font-size: 19px;
   color: #636363;
@@ -233,6 +267,7 @@
   background-repeat: no-repeat;
   background-position: center center;
 }
+
 .h-zn .h-zn-con {
   text-align: center;
   width: 100%;
@@ -242,16 +277,26 @@
   margin: 0 auto;
 }
 
+.h-zn-con img {
+  width: 15%;
+}
+
+.h-zn-con .one {
+  width: 50%;
+}
+
 .h-row {
   width: 900px;
   margin: 100px auto;
 }
+
 .h-row .ty-bg {
   width: 100%;
   position: absolute;
   right: -130px;
   opacity: 0.5;
 }
+
 .h-row .bf-btn {
   position: absolute;
   top: 0;
@@ -260,8 +305,10 @@
   bottom: 0;
   margin: auto;
 }
+
 .h-row .phone-bg {
   width: 333px;
+
   height: 688px;
   margin: 0 auto;
   position: relative;
@@ -270,6 +317,7 @@
   background-position: center bottom;
   z-index: 99;
 }
+
 .h-row .phone-bg div {
   position: absolute;
   top: 11px;
@@ -281,6 +329,7 @@
   border-radius: 26px;
   overflow: hidden;
 }
+
 .h-row .phone-bg video {
   position: absolute;
   top: 0px;
@@ -290,14 +339,17 @@
   width: 297px;
   height: 644px;
 }
+
 .h-row .left {
   position: relative;
   width: 50%;
 }
+
 .h-row .right {
   position: relative;
   width: 50%;
 }
+
 .h-row .title {
   font-size: 20px;
   color: #25324E;
@@ -306,6 +358,7 @@
   line-height: 30px;
   margin: 20px 0 16px 0;
 }
+
 .h-row .tip {
   font-size: 16px;
   color: #636363;
@@ -314,13 +367,16 @@
   line-height: 28px;
   margin-bottom: 15px;
 }
+
 .h-row .tip * {
   vertical-align: top;
 }
+
 .h-row .tip i {
   display: inline-block;
   width: 40px;
 }
+
 .h-row .tip img {
   margin-bottom: 10px;
 }
@@ -331,6 +387,7 @@
   background-image: url("../imgs/zn-bg.png");
   background-repeat: no-repeat;
 }
+
 .h-tip p {
   height: 81px;
   position: absolute;
@@ -343,5 +400,3 @@
   letter-spacing: 0;
   line-height: 40px;
 }
-
-/*# sourceMappingURL=index.css.map */
