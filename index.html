@@ -159,7 +159,7 @@
   <div class="h-row-con cf">
     <div class="lf left">
       <div class="phone-bg">
-        <div>
+        <div class="phone-bg-s">
           <video controls src="mp4/1.mp4"></video>
         </div>
         <img class="ty-bg" style="bottom:-13px" src="imgs/ty-pt.png" alt="">
@@ -192,7 +192,7 @@
     </div>
     <div class="rt right">
       <div class="phone-bg">
-        <div>
+        <div class="phone-bg-s">
           <video controls src="mp4/2.mp4"></video>
         </div>
         <img class="ty-bg" style="bottom:-13px" src="imgs/ty-pt.png" alt="">
@@ -204,7 +204,7 @@
   <div class="h-row-con cf">
     <div class="lf left">
       <div class="phone-bg">
-        <div>
+        <div class="phone-bg-s">
           <video controls src="mp4/3.mp4"></video>
         </div>
         <img class="ty-bg" style="bottom:-13px" src="imgs/ty-pt.png" alt="">
@@ -212,14 +212,10 @@
     </div>
     <div class="rt right">
       <br><br> <br><br> <br><br>
-      <p class="title">New Product Interface</p>
-      <p class="tip">It is important to display a simple but clear design on the mobile phone. In the banners, I chose
-        colors with low saturation that cater to young
-        <people class=""></people>
+      <p class="title">Customer Actions</p>
+      <p class="tip">In the purchase order list, a sales agent can click on the "customer action" button to track the customer's behaviors and facilitate the transaction.
       </p>
-      <p class="tip">The eye-catching wide banner at the top shows the insurance features, coverage, and rates, and
-        helps customers quickly obtain key information.</p>
-      <p class="tip">A fixed purchase button at the bottom allows users to initiate a purchase at any time.</p>
+      <p class="tip">The customer actions are presented in a timeline. Blue highlights the steps that the customer has passed, and gray indicates the remaining steps before completing the purchase order.</p>
     </div>
   </div>
 </div>
@@ -231,8 +227,9 @@
   <div class="h-row-con cf">
     <div class="lf left">
       <div class="phone-bg">
-        <div>
-          <video controls src="mp4/1.mp4"></video>
+        <div class="phone-bg-s" id="videos">
+          <img class="video video1" src="imgs/101.png" alt="">
+          <img class="video" src="imgs/105.png" alt="">
         </div>
         <img class="ty-bg" style="bottom:-13px" src="imgs/ty-pt.png" alt="">
       </div>
@@ -244,8 +241,8 @@
       <p class="tip">
        <span> Try the </span>
        <i>
-          <img src="imgs/20.png" alt=""><br>
-          <img src="imgs/21.png" alt="">
+          <img id="yl" src="imgs/20.png" alt=""><br>
+          <img id="ty" src="imgs/21.png" alt="">
        </i>
        <span>&nbsp;mode</span>
 
@@ -262,8 +259,9 @@
     </div>
     <div class="rt right">
       <div class="phone-bg">
-        <div>
-          <video controls src="mp4/2.mp4"></video>
+        <div class="phone-bg-s">
+<!--          <video controls src="mp4/2.mp4"></video>-->
+          <img class="video" src="imgs/102.png" alt="">
         </div>
       </div>
     </div>
@@ -271,5 +269,15 @@
 </div>
 </body>
 <script>
+  function tabChange(index) {
+    var imgs = Array.prototype.slice.call(document.getElementById('videos').getElementsByTagName('img'));
+    console.log('tabChange', index, imgs);
+    for(var i = 0; i<imgs.length; i++) {
+      imgs[i].style.display = i===index?'':'none';
+    }
+  }
+  document.getElementById('yl').addEventListener('click', tabChange.bind(window, 0));
+  document.getElementById('ty').addEventListener('click', tabChange.bind(window, 1));
+  tabChange(0);
 </script>
 </html>
