@@ -1,6 +1,14 @@
+@font-face {  
+  font-family: CopernicusWeb-Book;  
+  src: url("../font/CopernicusWeb-Book.woff.eot") /* EOT file for IE */  
+ }  
+ @font-face {  
+  font-family: CopernicusWeb-Book;  
+  src: url("../font/CopernicusWeb-Book.woff.ttf") /* TTF file for CSS3 browsers */  
+ }  
 * {
   box-sizing: border-box;
-  font-family: CopernicusTrial-Book;
+  font-family: CopernicusWeb-Book;
 }
 
 *:before, *:after {
